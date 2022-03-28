@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Это я сделяль!">
-    <meta name="author" content="Ilya">
+    <meta name="author" content="Otare1">
     <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="Это я сделяль!">
+    <meta property="og:title" content="Otare's WebSite">
 
 
     <title>
@@ -21,12 +21,12 @@
             <div class="logo">Илья Ланин</div>
             <div class="menu">
                 <ul>
-                    <li>Обо мне</li>
-                    <li>Услуги</li>
-                    <li>Кейсы</li>
-                    <li>Прайс</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,7 +41,7 @@
         <div class="about">
             <h2>Обо мне</h2>
             <img src="img/%D1%87%D0%B1@0,25x.jpg" alt="ой, картинка ушла погулять!">
-            <p><span>Тут я рассказываю о своих классных способностях создавать сайты, <br> а так же о своей супер креативности и тд.</span></p>
+            <p>Тут я рассказываю о своих классных способностях создавать сайты, <br> а так же о своей супер креативности и тд.</p>
             <input type="submit" value="Скачать резюме">
         </div>
         <div class="my_skills">
@@ -69,69 +69,53 @@
         </div>
         <div class="cases">
             <h2>Кейсы</h2>
-            <span> Здесь предствалены примеры моих работ</span>
-            <table border="0" width="80%">
-                <tr>
-                    <th width="20%"></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>Client</td>
-                    <td>Название проекта</td>
-                </tr>
-                <tr>
-                    <td>Какая-то компания</td>
-                    <td>Описание проекта</td>
-                </tr>
-                <tr>
-                    <td>Website:</td>
-                </tr>
-                <tr>
-                    <td>www.somewebsite.com</td>
-                </tr>
-            </table>
+            <p>Здесь предствалены примеры моих работ</p>
+            <div class="case_part">
+                <h4>CLIENT</h4>
+                <p>Какая-то компания</p>
+            </div>
+            <div class="case_part">
+                <h4>WEBSITE</h4>
+                <p>http://www.somewebsite.com</p>
+            </div>
+            <div class="case_part">
+                <h4>Название проекта</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet adipisci, perspiciatis? Obcaecati atque ipsa error impedit dolore enim neque ratione quas fugit sunt et officiis ad molestiae est, dolores cum, laborum corporis tempora nostrum, dignissimos id vel, laboriosam asperiores veritatis. Officiis iste at, et molestiae cum quis tempore perspiciatis, ea!</p>
+            </div>
             <input type="submit" value="VISIT LIVE SITE">
         </div>
         <div class="Price">
             <h2>Расчет стоимости</h2>
-            <span>Тип сайта</span>
-            <select name="list1" id="list" multiple>
-                <option value="opt1">type 1</option>
-                <option value="opt2">type 2</option>
-                <option value="opt3">type 3</option>
-                <option value="opt4">type 4</option>
-                <option value="opt5">type 5</option>
-                <option value="opt6">type 6</option>
-            </select>
-            <span>Дизайн</span>
-            <select name="list2" id="list" multiple>
-                <option value="opt1">design 1</option>
-                <option value="opt2">design 2</option>
-                <option value="opt3">design 3</option>
-                <option value="opt4">design 4</option>
-                <option value="opt5">design 5</option>
-                <option value="opt6">design 6</option>
-            </select>
-            <span>Адаптивность</span>
-            <select name="list3" id="list" multiple>
-                <option value="opt1">adaptive 1</option>
-                <option value="opt2">adaptive 2</option>
-                <option value="opt3">adaptive 3</option>
-            </select>
-            <table border="0" ; width="50%">
-                <tr>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th>Сроки</th>
-                    <th>0</th>
-                </tr>
-                <tr>
-                    <th>Стоимость</th>
-                    <th>0</th>
-                </tr>
-            </table>
+            <div class="Price_part">
+                <h3>ТИП САЙТА</h3>
+                <select name="list1" id="list1" multiple>
+                    <option value="opt1">type 1</option>
+                    <option value="opt2">type 2</option>
+                    <option value="opt3">type 3</option>
+                    <option value="opt4">type 4</option>
+                    <option value="opt5">type 5</option>
+                    <option value="opt6">type 6</option>
+                </select>
+            </div>
+            <div class="Price_part">
+                <h3>ДИЗАЙН</h3>
+                <select name="list2" id="list2" multiple>
+                    <option value="opt1">design 1</option>
+                    <option value="opt2">design 2</option>
+                    <option value="opt3">design 3</option>
+                    <option value="opt4">design 4</option>
+                    <option value="opt5">design 5</option>
+                    <option value="opt6">design 6</option>
+                </select>
+            </div>
+            <div class="Price_part">
+                <h3>АДАПТИВНОСТЬ</h3>
+                <select name="list3" id="list3" multiple>
+                    <option value="opt1">adaptive 1</option>
+                    <option value="opt2">adaptive 2</option>
+                    <option value="opt3">adaptive 3</option>
+                </select>
+            </div>
         </div>
         <div class="stats">
             <div class="stats_part">
@@ -161,7 +145,7 @@
         </div>
         <div class="contacts">
             <h2>мои крнтакты</h2>
-            <span>Со мной можно связаться следующим образом</span>
+            <span>Со мной можно связаться следующим образом:</span>
             <div class="contact_part">
                 <img src="img/%D0%B3%D0%B5%D0%BE.png" alt="geolocation">
                 <p>Санкт-Питербург<br>Невский проспект 11</p>
@@ -180,9 +164,8 @@
             <textarea name="message" id="1" cols="80" rows="10" placeholder="Сообщение"></textarea>
             <input type="submit" value="Отправить">
             <br>
-            <a href="facebook.com">Facebook</a>
-            <a href="twitter.com">Twitter</a>
-            <a href="instagram.com/otare1">Inst</a>
+            <a href="https://www.google.com"><img src="img/%D1%82%D0%B2%D0%B8%D1%82%D0%B5%D1%80.png" alt="twitter.com"></a>
+            <a href="https://www.instagram.com/otare1"><img src="img/%D0%B8%D0%BD%D1%81%D1%82.png" alt="instagram.com/otare1"></a>
         </div>
         <footer>
             <p>Copyright©2022 Илья Ланин. Design by Web </p>
