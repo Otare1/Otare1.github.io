@@ -1,14 +1,201 @@
-.example-block{
-    
-    outline: 1px solid #000;
-    margin: 20px 40px 5px 10px;
-    padding: 1%;
-    width: 600px;
-    box-sizing: border-box;
-    opacity: 0.5    
+body {
+    font-family: Arial, sans-serif;
 }
-.example-string{
-    display: none;
 
-   
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title_container {
+    float: left;
+    margin: 435px 0px 0px 403px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_container > h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container > h4 {
+    margin-top: 50px;
+    color: #b2b6bd;
+    font-size: 22px;
+}
+
+.title_container > input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 8px;
+    width: 93px;
+    color: #6d7682;
+    font-size: 13px;
+    margin: 58px 14px 0px 14px;
+    padding: auto
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #263244;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 109px;
+}
+
+
+.about > img {
+    margin-left: 897px;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+
+.about {
+    margin-top: 109px;
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    height: 716px;
+}
+
+.about_container > img {
+    padding: 32px;
+    margin-left: 840px;
+
+}
+
+.about_container > p {
+    margin: 21px 0px 21px 620px;
+}
+
+.about_container > input {
+    height: 40px;
+    border: 2px solid #6d7682;
+    background: url(../img/download.jpg) no-repeat 15px;
+    border-radius: 8px;
+    width: 155px;
+    color: #6d7682;
+    font-size: 13px;
+    margin: 37px 860px;
+    padding: 0px 23px 0px 37px;
+}
+
+.my_skills {
+    width: 100%;
+    float: left;
+    height: 524px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-image: url(../img/bg2.jpg)
+}
+
+.my_skills_header > img {
+    margin-left: 645px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.skill_parts {
+    float: left;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 103px;
+    margin-left: 41px;
+}
+
+.skill_parts > h3 {
+    font-size: 16px;
+    color: #e88401;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.cases {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    height: 1245px;
+}
+
+.cases_header {
+    text-align: center;
+
+}
+
+.cases_header > img {
+    margin-top: 32px;
+}
+
+.cases_header > p {
+    margin-top: 20px;
+}
+
+.case_part {
+    margin: 40px 0px 0px 350px;
+    color: #525a69;
+    font-weight: 500;
+    width: 300px;
+    float: left;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #384354;
+    height: 26px;
+    margin-top: 18px;
+}
+
+.project_name {
+    margin: 40px 400px 0px 0px;
+    float: right;
+    width: 800px;
+}
+
+.cases > input {
+    height: 40px;
+    border: 0px solid #6d7682;
+    background-color: #63b5ae ;
+    border-radius: 5px;
+    width: 202px;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    
+
 }
