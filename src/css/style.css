@@ -431,6 +431,9 @@ textarea{
 
 
 footer{
+    float: left;
+    height: 100px;
+    width: 100%;
     background-color: #354051;
     color: #fff;
     text-align: center;
