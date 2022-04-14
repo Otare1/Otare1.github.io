@@ -22,12 +22,12 @@
             <div class="logo">Илья Ланин</div>
             <div class="menu">
                 <ul>
-                    <li>Обо мне</li>
-                    <li>Услуги</li>
-                    <li>Кейсы</li>
-                    <li>Прайс</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,8 +37,8 @@
         <div class="title_container">
             <h1>Привет <br>Я Илья Ланин</h1>
             <h4>Фулл стек веб-разработчик</h4>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
+            <input type="button" value="Обо мне">
+            <input type="button" value="Мои работы">
         </div>
     </div>
     <div class="about">
@@ -88,7 +88,7 @@
             <h4>CLIENT</h4>
             <p>Какая-то компания</p>
             <h4>WEBSITE</h4>
-            <p>http://www.somewebsite.com</p>
+            <p><a href="#">http://www.somewebsite.com</a></p>
         </div>
         <div class="project_name">
             <h4>Название проекта</h4>
@@ -197,7 +197,7 @@
             </div>
             <div class="contact_part">
                 <img src="img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png" alt="mesage_icon">
-                <p>info@companyname.com</p>
+                <p><a href="#">info@companyname.com</a></p>
             </div>
             <div class="contact_part">
                 <img src="img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png" alt="phone">
@@ -233,6 +233,62 @@
             <p>Copyright©2022. Илья Ланин. Design by Web.</p>
         </footer>
     </div>
+    
+<div id="preloader_malc">
+
+	<div>
+
+		Подождите, идет загрузка сайта ...
+
+	</div>
+
+</div>
+
+<style type="text/css">
+	#preloader_malc {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, .6);
+		z-index: 99
+	}
+
+	#preloader_malc div {
+		background: #fff;
+		width: 260px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 8px;
+		font-family: arial;
+		font-size: 15px;
+		color: #111;
+		text-align: center;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto
+	}
+</style>
+
+<script type="text/javascript">
+
+	window.onload = function() {
+
+		setTimeout(function() {
+
+			document.getElementById("preloader_malc").style.display = "none";
+
+		}, 400);
+
+	};
+
+</script>
 </body>
 
 </html>
